@@ -1,0 +1,5 @@
+limite = int(input("Digite até onde será feita a contagem: "))
+print(f"=============================\nIniciando a contagem...")
+for num in range(1, limite+1):#limite+1 para ajustar o index na função range()
+    print(f"Contando {num}...")
+print("Contagem Finalizada.")
