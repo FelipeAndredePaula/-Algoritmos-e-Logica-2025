@@ -1,0 +1,9 @@
+print("Atividade 04 - Aula 13\n=============================".upper())
+cidades = []
+n_cidades = 5
+for i in range(n_cidades):
+    nome = input(f"Digite o nome da {i+1}ª cidade: ")
+    cidades.append(nome)
+print("=============================\nNomes das cidades em MAIÚSCULO")
+for i in range(len(cidades)):
+    print(f"{i+1}ª cidade: {cidades[i].upper()}")
